@@ -1,0 +1,48 @@
+/* UNIVERSAL STYLES */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* HEADER STYLES */
+
+header .container {
+  width: 80%;
+  margin: 30px auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nav button {
+  border: none;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+}
+
+nav .navMenu {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  font-size: 0.9rem;
+}
+
+nav .navLogo {
+  width: 200px;
+}
