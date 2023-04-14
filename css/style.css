@@ -206,76 +206,33 @@ p {
   color: #fff;
   background-color: rgb(61, 57, 57);
   width: 600px;
- height: 300px;
-  margin-left: 100px;
-  margin-top: 30px;
+ height: 255px;
+  margin-left: 10px;
   border-radius: 30px;
-  padding-top: 40px;
-  display: grid;
-  
+ 
+ 
+ 
 }
 
-/* .card-text-a{
-  color: #fff;
-  background-color: rgb(61, 57, 57);
-  width: 600px;
- height: 300px;
-  margin-left: 100px;
-  margin-top: 30px;
-  border-radius: 30px;
-  padding-top: 40px;
-
+.container{
+  display: flex;
 }
-
-.card-text-b{
-  color: #fff;
-  background-color: rgb(61, 57, 57);
-  width: 600px;
- height: 300px;
-  margin-left: 100px;
-  margin-top: 30px;
-  border-radius: 30px;
-  padding-top: 40px;
-
-
-} */
 
 
 .card-text1{
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
+  padding-top: 30px;
+  margin-left: 10px;
 }
 
 .card-text2{
-  margin-left: 80px;
-  bottom: -150px;
-  font-size: 15px;
+  margin-left: 40px;
+  /* bottom: -150px; */
+  font-size: 13px;
+  padding-top: 10px;
 }
 
-.card-text1a{
-  font-size: 25px;
-  text-align: center;
-}
-
-.card-text2a{
-  margin-left: 80px;
-  bottom: -150px;
-  font-size: 15px;
-
-}
-
-.card-text1b{
-  font-size: 25px;
-  text-align: center;
-
-}
-
-.card-text2b{
-  margin-left: 80px;
-  bottom: -150px;
-  font-size: 15px;
-
-}
 
 /* SMATT STYLES */
 #sectionFour .sectionOne {
