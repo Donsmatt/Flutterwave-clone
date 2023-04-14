@@ -64,10 +64,173 @@ nav .navLogo {
 }
 
 /* DEBEST STYLES */
+div {
+  display: block;
+}
+.SectionOne {
+  padding: 9rem 2rem;
+  display: block;
+}
+.main {
+  flex: 0 1 auto;
+  padding: 2rem 2rem;
+  display: block;
+}
+.hero_headinig {
+  font-size: 5rem !important;
+  line-height: 5.2rem !important;
+}
+.hero_heading {
+  font-family: "Millik", sans-serif;
+  font-size: 10rem;
+  font-weight: 500;
+  line-height: 7.8rem;
+  margin-bottom: 3rem;
+}
+.c-or {
+  color: #fb9129;
+}
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.hero_sub-heading {
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 3.2rem;
+  margin-bottom: 4rem;
+  max-width: 61rem;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.btn__label {
+  background-color: #0a0e27;
+  box-sizing: 10px;
+  font-size: 1.5rem;
+  color: white;
+  line-height: normal;
+  margin: 0;
+  padding: 1.5rem 1.9rem;
+  display: inline-flex;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.column {
+  width: 50%;
+  display: block;
+}
+.container1 {
+  padding: 0 16px;
+}
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.sponsor::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.ads {
+  float: left;
+  width: 16.6%;
+  padding: 0;
+}
 
 /* ANGELUSBILLS STYLES */
 
 /* VICTOR EBEGBUNA STYLES */
+
+.section3{
+  background-color: #1d1d1d;
+  height: 1000px;
+  width: 98%;
+ background-position: center center;
+
+}
+
+.cards{
+  padding-top: 100px;
+  color: white;
+  font-size: 80px;
+  font-family: sans-serif;
+  text-align: center;
+  bottom: 90px;
+}
+
+.card{
+  color: #6672c7;
+}
+
+.text1{
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 25px;
+  
+
+}
+
+.button{
+   background-color: #fff;
+  width: 250px;
+  height: 90px;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-left: 600px;
+  
+}
+
+.get{
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.card-text{
+  color: #fff;
+  background-color: rgb(61, 57, 57);
+  width: 600px;
+ height: 250px;
+  margin-left: 100px;
+  margin-top: 30px;
+  border-radius: 30px;
+
+}
+
+.card-text1{
+  position: absolute;
+  bottom: -20px;
+  left: 160px;
+  
+}
+
+.card-text2{
+  position: absolute;
+  left: 160px;
+  bottom: -150px;
+  font-size: 20px;
+  
+
+}
 
 /* SMATT STYLES */
 #sectionFour .sectionOne {
@@ -81,13 +244,14 @@ nav .navLogo {
   padding: 5rem 0;
 }
 
-#sectionFour h2,
-#sectionFour p,
-#sectionFour ul {
+#sectionFour .sectionOne h2,
+#sectionFour .sectionOne p,
+#sectionFour .sectionOne ul {
   margin-bottom: 3rem;
 }
 
-#sectionFour h2 {
+#sectionFour h2,
+#sectionOne h4 {
   font-size: 4rem;
   font-family: "Abril Fatface", cursive;
   line-height: 1.2;
@@ -136,38 +300,27 @@ nav .navLogo {
   border-radius: 10px;
 }
 
-/* #sectionFour img {
+#sectionFour img {
   width: 100%;
 }
 
-#sectionFour .marquee {
-  position: relative;
-}
-
-#sectionFour .globe {
+#sectionFour marquee {
   display: block;
-  width: 500px;
-  height: 500px;
   border-radius: 50%;
-  border: none;
-  background-color: #0a0e27;
-  position: absolute;
-  top: 135px;
-  right: 135px;
+  height: 700px;
+  width: 700px;
 }
 
-#sectionFour .earth {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 800px;
-  z-index: 10;
-} */
+#sectionFour marquee img {
+  height: 100%;
+  width: 210%;
+}
 
 #sectionFour .sectionThree {
   background-color: #fff;
   display: grid;
   place-items: center;
+  margin-bottom: 100px;
 }
 
 #sectionFour .card {
@@ -189,6 +342,7 @@ nav .navLogo {
   background-color: transparent;
   color: #fff;
 }
+
 
 
 /* REMIKOOL STYLES */
@@ -390,4 +544,48 @@ nav {
 
 .btn2.btn2-violet:hover:active {
   background-color: #2f2f5b
+}
+
+#sectionFour .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#sectionFour .sectionTwo h2 {
+  margin-bottom: 3rem;
+}
+
+#sectionFour .infoContainer {
+  border-left: 1px dashed #0a0e27;
+}
+
+#sectionFour .info {
+  margin-bottom: 3rem;
+}
+
+#sectionFour .info h3,
+#sectionFour .info p {
+  margin-bottom: 0.7rem;
+}
+
+#sectionFour .info > h3 {
+  border-left: 3px solid #0a0e27;
+  padding-left: 2rem;
+}
+
+#sectionFour .info > p {
+  padding-left: 2rem;
+  border-left: 3px solid #fff;
+}
+
+#sectionFour .info .grid {
+  padding-left: 2rem;
+  border-left: 3px solid #fff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 40rem;
+}
+
+.cyan {
+  color: #00abab;
 }
