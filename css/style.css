@@ -65,9 +65,7 @@ div {
 .main {
   flex: 0 1 auto;
   padding: 2rem 2rem;
-
   display: block;
-  box-sizing: 5px;
 }
 .hero_headinig {
   font-size: 5rem !important;
