@@ -51,28 +51,42 @@ nav .navLogo {
 }
 
 /* DEBEST STYLES */
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 div {
   display: block;
 }
 .SectionOne {
   padding: 9rem 2rem;
   display: block;
-  box-sizing: ;
-
+  box-sizing: inherit ;
+}
+#home {
+  overflow-x: hidden;
+}
+.hero__wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  max-width: 109.2rem;
 }
 .main {
   flex: 0 1 auto;
   padding: 2rem  2rem;
 
   display: block;
-  box-sizing: 5px;
+  box-sizing: inherit;
 }
 .hero_headinig {
   font-size: 5rem!important;
   line-height: 5.2rem!important;
 }
 .hero_heading {
-  font-family: "Millik",sans-serif;
+  font-family: "Abril Fatface", cursive;
   font-size: 10rem;
   font-weight: 500;
   line-height: 7.8rem;
@@ -82,6 +96,7 @@ div {
   color: #fb9129;
 }
 h4 {
+  font-family: "Abril Fatface", cursive;
   display: block;
   margin-block-start: 1.33em;
   margin-block-end: 1.33em;
@@ -114,6 +129,12 @@ p {
    padding: 1.5rem 1.9rem;
   display: inline-flex;
 }
+.business__intro {
+  font-size: 2.2rem;
+  font-size: 500;
+  line-height: 3.2rem;
+  margin-bottom: 2rem;
+}
 
 .column {
   float: left;
@@ -143,7 +164,13 @@ p {
     width: 16.6%;
     padding: 0;
   }
-  
+  .paragraph {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.2rem;
+    margin-top: 7.4rem;
+    max-width: 38rem;
+  }
 /* ANGELUSBILLS STYLES */
 
 /* VICTOR EBEGBUNA STYLES */
