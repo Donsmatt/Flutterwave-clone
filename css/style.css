@@ -21,6 +21,7 @@ a {
   color: #333;
 }
 
+
 /* REMIKOOL STYLES */
 
 /* HEADER STYLES */
@@ -55,7 +56,99 @@ nav .navLogo {
 }
 
 /* DEBEST STYLES */
+div {
+  display: block;
+}
+.SectionOne {
+  padding: 9rem 2rem;
+  display: block;
+  box-sizing: ;
 
+}
+.main {
+  flex: 0 1 auto;
+  padding: 2rem  2rem;
+
+  display: block;
+  box-sizing: 5px;
+}
+.hero_headinig {
+  font-size: 5rem!important;
+  line-height: 5.2rem!important;
+}
+.hero_heading {
+  font-family: "Millik",sans-serif;
+  font-size: 10rem;
+  font-weight: 500;
+  line-height: 7.8rem;
+  margin-bottom: 3rem;
+}
+.c-or {
+  color: #fb9129;
+}
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.hero_sub-heading {
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 3.2rem;
+  margin-bottom: 4rem;
+  max-width: 61rem;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.btn__label{
+   background-color: #0a0e27;
+   box-sizing: 10px;
+   font-size: 1.5rem;
+   color:white;
+   line-height: normal;
+   margin: 0;
+   padding: 1.5rem 1.9rem;
+  display: inline-flex;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.column {
+  width: 50%;
+  display: block;
+}
+.container1 {
+  padding: 0 16px;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.sponsor::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.ads {
+  float: left;
+    width: 16.6%;
+    padding: 0;
+  }
+  
 /* ANGELUSBILLS STYLES */
 
 /* VICTOR EBEGBUNA STYLES */
