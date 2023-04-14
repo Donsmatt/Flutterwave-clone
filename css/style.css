@@ -21,7 +21,6 @@ a {
   color: #333;
 }
 
-
 /* REMIKOOL STYLES */
 
 /* HEADER STYLES */
@@ -62,22 +61,20 @@ div {
 .SectionOne {
   padding: 9rem 2rem;
   display: block;
-  box-sizing: ;
-
 }
 .main {
   flex: 0 1 auto;
-  padding: 2rem  2rem;
+  padding: 2rem 2rem;
 
   display: block;
   box-sizing: 5px;
 }
 .hero_headinig {
-  font-size: 5rem!important;
-  line-height: 5.2rem!important;
+  font-size: 5rem !important;
+  line-height: 5.2rem !important;
 }
 .hero_heading {
-  font-family: "Millik",sans-serif;
+  font-family: "Millik", sans-serif;
   font-size: 10rem;
   font-weight: 500;
   line-height: 7.8rem;
@@ -109,14 +106,14 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-.btn__label{
-   background-color: #0a0e27;
-   box-sizing: 10px;
-   font-size: 1.5rem;
-   color:white;
-   line-height: normal;
-   margin: 0;
-   padding: 1.5rem 1.9rem;
+.btn__label {
+  background-color: #0a0e27;
+  box-sizing: 10px;
+  font-size: 1.5rem;
+  color: white;
+  line-height: normal;
+  margin: 0;
+  padding: 1.5rem 1.9rem;
   display: inline-flex;
 }
 
@@ -133,7 +130,8 @@ p {
 .container1 {
   padding: 0 16px;
 }
-.container::after, .row::after {
+.container::after,
+.row::after {
   content: "";
   clear: both;
   display: table;
@@ -145,10 +143,10 @@ p {
 }
 .ads {
   float: left;
-    width: 16.6%;
-    padding: 0;
-  }
-  
+  width: 16.6%;
+  padding: 0;
+}
+
 /* ANGELUSBILLS STYLES */
 
 /* VICTOR EBEGBUNA STYLES */
