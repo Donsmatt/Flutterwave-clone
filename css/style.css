@@ -56,7 +56,6 @@ nav .navMenu {
   height: 15vh;
   margin: auto;
   font-weight: 400;
-  
 }
 
 nav .navLogo {
@@ -154,19 +153,174 @@ p {
   padding: 0;
 }
 
+/* SMATT ADJUSTMENTS */
+/* DEBEST SECTION */
+
+#sectionOne {
+  padding: 5rem 0;
+}
+
+#sectionOne .sectionOne {
+  background-color: #fff;
+  color: #1d1d1d;
+}
+
+#sectionOne .container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+#sectionOne .sectionOne h2 {
+  margin-bottom: 3rem;
+}
+
+#sectionOne .sectionOne h3,
+#sectionOne .sectionOne p {
+  margin-bottom: 1rem;
+}
+
+#sectionOne h2 {
+  font-size: 4rem;
+  font-family: "Abril Fatface", cursive;
+  line-height: 1.2;
+  word-spacing: 0.15rem;
+  max-width: 50rem;
+}
+
+#sectionOne .yellow {
+  color: #fb9129;
+}
+
+#sectionOne .s-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  align-items: center;
+}
+
+#sectionOne img {
+  width: 100%;
+}
+
+#sectionOne .grid-image {
+  box-shadow: 0 20px 50px rgba(29, 29, 29, 0.3);
+  border: 0;
+  border-radius: 20px;
+}
+
+#sectionOne h3 {
+  font-size: 1.4rem;
+}
+
+#sectionOne p{
+  font-size: 1.2rem;
+  font-weight: 300;
+  max-width: 40rem;
+}
+
+#sectionOne button {
+  padding: 1rem 1.5rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #0a0e27;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+#sectionOne .btn {
+  background-color: transparent;
+  color: #fb4e20;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1rem 0;
+}
+
 /* ANGELUSBILLS STYLES */
+
+
+#sectionTwo {
+  padding: 5rem 0;
+  background-color: #f8fafd;
+}
+
+#sectionTwo .sectionOne {
+  background-color: #f8fafd;
+  color: #1d1d1d;
+}
+
+#sectionTwo .container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+#sectionTwo .sectionOne h2 {
+  margin-bottom: 3rem;
+}
+
+#sectionTwo .sectionOne h3,
+#sectionTwo .sectionOne p {
+  margin-bottom: 1rem;
+}
+
+#sectionTwo h2 {
+  font-size: 4rem;
+  font-family: "Abril Fatface", cursive;
+  line-height: 1.2;
+  word-spacing: 0.15rem;
+  max-width: 50rem;
+}
+
+#sectionTwo h3 {
+  font-size: 1.4rem;
+}
+
+#sectionTwo p{
+  font-size: 1.2rem;
+  font-weight: 300;
+  max-width: 40rem;
+}
+
+#sectionTwo button {
+  padding: 1rem 1.5rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #0a0e27;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+#sectionTwo img {
+  width: 100%;
+}
+
+#sectionTwo .green {
+  color: #35a162;
+}
+
+#sectionTwo .s-grid-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+#sectionTwo .sectionTwo h3 {
+  font-size: 4rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+}
 
 /* VICTOR EBEGBUNA STYLES */
 
-.section3{
+.section3 {
   background-color: #1d1d1d;
   height: 1000px;
   width: 98%;
- background-position: center center;
-
+  background-position: center center;
 }
 
-.cards{
+.cards {
   padding-top: 100px;
   color: white;
   font-size: 80px;
@@ -175,61 +329,54 @@ p {
   bottom: 90px;
 }
 
-.card{
+.card {
   color: #6672c7;
 }
 
-.text1{
+.text1 {
   color: white;
   text-align: center;
   margin-top: 40px;
   font-size: 25px;
-  
-
 }
 
-.button{
-   background-color: #fff;
+.button {
+  background-color: #fff;
   width: 250px;
   height: 90px;
   border-radius: 15px;
   margin-top: 40px;
   margin-left: 600px;
-  
 }
 
-.get{
+.get {
   font-size: 18px;
   font-weight: lighter;
   text-align: center;
   padding-top: 30px;
 }
 
-.card-text{
+.card-text {
   color: #fff;
   background-color: rgb(61, 57, 57);
   width: 600px;
- height: 250px;
+  height: 250px;
   margin-left: 100px;
   margin-top: 30px;
   border-radius: 30px;
-
 }
 
-.card-text1{
+.card-text1 {
   position: absolute;
   bottom: -20px;
   left: 160px;
-  
 }
 
-.card-text2{
+.card-text2 {
   position: absolute;
   left: 160px;
   bottom: -150px;
   font-size: 20px;
-  
-
 }
 
 /* SMATT STYLES */
@@ -292,7 +439,7 @@ p {
 }
 
 #sectionFour button {
-  padding: 1.5rem 2rem;
+  padding: 1rem 1.5rem;
   font-family: "Poppins", sans-serif;
   background-color: #0a0e27;
   color: #fff;
@@ -343,17 +490,15 @@ p {
   color: #fff;
 }
 
-
-
 /* REMIKOOL STYLES */
 
 /* FOOTER STYLES */
 
 .afooter {
-      padding-top: 70px;
-     position: relative;
- }
- .footer-list {
+  padding-top: 70px;
+  position: relative;
+}
+.footer-list {
   padding: 50px 0;
   list-style: none;
   padding-left: 0;
@@ -361,7 +506,7 @@ p {
   width: 100%;
   border-bottom: 1px solid #555;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
- }
+}
 
 .ct-section_header--type3 {
   text-align: center;
@@ -375,9 +520,10 @@ p {
 }
 
 .footer-pre span {
-  font-family: 'Open Sans Condensed', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif, "Gill Sans", "Gill Sans MT",
+    Calibri, "Trebuchet MS", sans-serif;
   color: #ebebeb;
-  font-size: 30px
+  font-size: 30px;
 }
 
 .footer-pre .form-group {
@@ -387,12 +533,12 @@ p {
 
 .footer-pre .form-group:before,
 .footer-pre .form-group:after {
-  content: '';
-  display: table
+  content: "";
+  display: table;
 }
 
 .footer-pre .form-group:after {
-  clear: both
+  clear: both;
 }
 
 footer-pre .form-group input {
@@ -406,8 +552,9 @@ footer-pre .form-group input {
 }
 
 .footer-list > li .footer-list-header {
-  font-family: 'Open Sans Condensed', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #21D1B2;
+  font-family: "Open Sans Condensed", sans-serif, "Gill Sans", "Gill Sans MT",
+    Calibri, "Trebuchet MS", sans-serif;
+  color: #21d1b2;
   font-size: 30px;
 }
 
@@ -421,14 +568,14 @@ footer-pre .form-group input {
 }
 
 .footer-list > li ul li a:hover {
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 .footer-post .inner-left,
 .footer-post .inner-right {
   padding: 20px 0;
   font-weight: 600px;
-  font-size: 18px
+  font-size: 18px;
 }
 
 .footer-post ul {
@@ -439,7 +586,7 @@ footer-pre .form-group input {
 
 .footer-post ul li {
   display: inline-block;
-  margin: 0 20px
+  margin: 0 20px;
 }
 
 .footer-post a {
@@ -447,19 +594,19 @@ footer-pre .form-group input {
 }
 
 .footer-post a:hover {
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 .footer-post p {
   color: #fff;
 }
- 
+
 .ct-section_header--type2 img {
   /* display: inline-block; */
   float: right;
   position: relative;
   top: 15px;
-  padding-right: 3px
+  padding-right: 3px;
 }
 
 .ct-section_header--type3 {
@@ -467,7 +614,7 @@ footer-pre .form-group input {
 }
 
 .ct-section_header--type3 small {
-  font-family: 'coquette', fantasy;
+  font-family: "coquette", fantasy;
   font-size: 50px;
   padding: 15px 0;
   font-weight: 700;
@@ -476,15 +623,15 @@ footer-pre .form-group input {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  display: block
+  display: block;
 }
 
 .ct-section_header--type3 span {
-  font-family: 'Bebas Neue';
+  font-family: "Bebas Neue";
   font-size: 150px;
   font-weight: 400;
   text-transform: uppercase;
-  line-height: .85
+  line-height: 0.85;
 }
 .ct-section_header + p {
   font-size: 30px;
@@ -493,23 +640,23 @@ footer-pre .form-group input {
   text-align: center;
 }
 
-@media (max-width:479px) {
+@media (max-width: 479px) {
   .ct-section_header + p {
-      font-size: 22px
+    font-size: 22px;
   }
 }
 
 .ct-section_header--type4 + p {
-  font-family: 'nimbus-sans-condensed', sans-serif;
+  font-family: "nimbus-sans-condensed", sans-serif;
   font-weight: 400;
   font-size: 40px;
   font-weight: 700;
   line-height: 1;
 }
 
-@media (max-width:479px) {
+@media (max-width: 479px) {
   .ct-section_header--type4 + p {
-      font-size: 28px
+    font-size: 28px;
   }
 }
 
@@ -530,20 +677,21 @@ nav {
   width: 100%;
 }
 
-.btn1{
-  background-color: #21D1B2;
+.btn1 {
+  background-color: #21d1b2;
 }
 
 .btn2 {
-  background-color: #21D1B2
+  background-color: #21d1b2;
 }
 
-.btn1.btn1-violet:hover, :active {
+.btn1.btn1-violet:hover,
+:active {
   background-color: #37376b;
 }
 
 .btn2.btn2-violet:hover:active {
-  background-color: #2f2f5b
+  background-color: #2f2f5b;
 }
 
 #sectionFour .grid {
