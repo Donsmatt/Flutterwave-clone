@@ -244,14 +244,6 @@ ct-section_header--type2 small {
   position: relative;
   left: -12px
 
-.ct-section_header--type2 img {
-  display: inline-block;
-  float: left;
-  position: relative;
-  top: 15px;
-  padding-right: 3px
-}
-
 .ct-section_header--type3 {
   text-align: center;
 }
