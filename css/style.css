@@ -5,7 +5,7 @@
 * {
   margin: 0%;
   padding: 0%;
-  box-sizing: border-box;
+  box-sizing: border-box;x vb
 }
 
 body {
@@ -43,11 +43,20 @@ nav button {
   padding: 1rem 3rem;
 }
 
+nav button:hover {
+  background-color: hwb(36 1% 91% / 0.726); /* Dark Brown */
+  color: white;
+}
+
 nav .navMenu {
   display: flex;
   align-items: center;
   gap: 3rem;
   font-size: 0.9rem;
+  height: 15vh;
+  margin: auto;
+  font-weight: 400;
+  
 }
 
 nav .navLogo {
@@ -180,3 +189,31 @@ nav .navLogo {
   background-color: transparent;
   color: #fff;
 }
+
+
+/* REMIKOOL STYLES */
+
+/* FOOTER STYLES */
+
+footer {
+      padding-top: 70px;
+     position: relative;
+ }
+ .footer-list {
+  padding: 50px 0;
+  list-style: none;
+  padding-left: 0;
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #555;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  .footer-post ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 -20px;
+}
+ 
+.footer-post ul li {
+    display: inline-block;
+    margin: 0 20px
