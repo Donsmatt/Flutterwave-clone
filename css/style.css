@@ -61,14 +61,11 @@ div {
 .SectionOne {
   padding: 9rem 2rem;
   display: block;
-
 }
 .main {
   flex: 0 1 auto;
   padding: 2rem 2rem;
-
   display: block;
-  box-sizing: 5px;
 }
 .hero_headinig {
   font-size: 5rem !important;
@@ -244,7 +241,8 @@ p {
   margin-bottom: 3rem;
 }
 
-#sectionFour h2 {
+#sectionFour h2,
+#sectionOne h4 {
   font-size: 4rem;
   font-family: "Abril Fatface", cursive;
   line-height: 1.2;
@@ -297,27 +295,16 @@ p {
   width: 100%;
 }
 
-#sectionFour .sectionTwo {
-  position: relative;
-}
-
-#sectionFour .globe {
-  width: 500px;
-  height: 500px;
+#sectionFour marquee {
+  display: block;
   border-radius: 50%;
-  border: none;
-  background-color: #0a0e27;
-  position: absolute;
-  top: 135px;
-  right: 135px;
+  height: 700px;
+  width: 700px;
 }
 
-#sectionFour .earth {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 800px;
-  z-index: 10;
+#sectionFour marquee img {
+  height: 100%;
+  width: 210%;
 }
 
 #sectionFour .sectionThree {
@@ -345,6 +332,11 @@ p {
 #sectionFour .btn2 {
   background-color: transparent;
   color: #fff;
+}
+
+#sectionFour .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 #sectionFour .sectionTwo h2 {
