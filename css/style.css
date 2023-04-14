@@ -160,7 +160,7 @@ p {
 
 .section3{
   background-color: #1d1d1d;
-  height: 1000px;
+  height: 1500px;
   width: 98%;
  background-position: center center;
 
@@ -173,6 +173,7 @@ p {
   font-family: sans-serif;
   text-align: center;
   bottom: 90px;
+  font-family: "Abril Fatface", cursive;
 }
 
 .card{
@@ -184,6 +185,7 @@ p {
   text-align: center;
   margin-top: 40px;
   font-size: 25px;
+  font-family: "Abril Fatface", cursive;
   
 
 }
@@ -209,28 +211,33 @@ p {
   color: #fff;
   background-color: rgb(61, 57, 57);
   width: 600px;
- height: 250px;
-  margin-left: 100px;
-  margin-top: 30px;
+ height: 255px;
+  margin-left: 10px;
   border-radius: 30px;
-
+ 
+ 
+ 
 }
 
+.container{
+  display: flex;
+}
+
+
 .card-text1{
-  position: absolute;
-  bottom: -20px;
-  left: 160px;
-  
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+  margin-left: 10px;
 }
 
 .card-text2{
-  position: absolute;
-  left: 160px;
-  bottom: -150px;
-  font-size: 20px;
-  
-
+  margin-left: 40px;
+  /* bottom: -150px; */
+  font-size: 13px;
+  padding-top: 10px;
 }
+
 
 /* SMATT STYLES */
 #sectionFour .sectionOne {
