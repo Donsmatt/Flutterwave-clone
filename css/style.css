@@ -408,7 +408,14 @@ footer-pre .form-group input {
 .footer-list > li .footer-list-header {
   font-family: 'Open Sans Condensed', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #21D1B2;
+<<<<<<< HEAD
+  display: block;
+  float: :right;
+  font-size: 30px
+  
+=======
   font-size: 30px;
+>>>>>>> 7919c0ad5e94dc1a2b51690e3d6e7c1343fa894b
 }
 
 .footer-list > li ul {
@@ -450,12 +457,13 @@ footer-pre .form-group input {
   text-decoration: underline
 }
 
-.footer-post p {
-  color: #fff;
-}
  
 .ct-section_header--type2 img {
+<<<<<<< HEAD
+  display: inline-flex;
+=======
   /* display: inline-block; */
+>>>>>>> 7919c0ad5e94dc1a2b51690e3d6e7c1343fa894b
   float: right;
   position: relative;
   top: 15px;
@@ -472,7 +480,6 @@ footer-pre .form-group input {
   padding: 15px 0;
   font-weight: 700;
   color: #fff;
-  background-image: url("/core/fileparse.php/16/urlt/../images/ribbon.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -493,11 +500,6 @@ footer-pre .form-group input {
   text-align: center;
 }
 
-@media (max-width:479px) {
-  .ct-section_header + p {
-      font-size: 22px
-  }
-}
 
 .ct-section_header--type4 + p {
   font-family: 'nimbus-sans-condensed', sans-serif;
@@ -507,14 +509,9 @@ footer-pre .form-group input {
   line-height: 1;
 }
 
-@media (max-width:479px) {
-  .ct-section_header--type4 + p {
-      font-size: 28px
-  }
-}
-
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 3rem;
   font-size: 0.9rem;
@@ -523,26 +520,37 @@ footer-pre .form-group input {
   font-weight: 500;
   float: right;
 }
-nav {
+.nav {
   display: flex;
+  float: right;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  flex: 190px;
 }
 
-.btn1{
+.feeter (
+  background-color: #fff
+  
+)
+
+.button1 {
   background-color: #21D1B2;
 }
 
-.btn2 {
+.button2 {
   background-color: #21D1B2
 }
 
+<<<<<<< HEAD
+.button1-violet:hover: :active {
+=======
 .btn1.btn1-violet:hover, :active {
+>>>>>>> 7919c0ad5e94dc1a2b51690e3d6e7c1343fa894b
   background-color: #37376b;
 }
 
-.btn2.btn2-violet:hover:active {
+.button2-violet:hover:active {
   background-color: #2f2f5b
 }
 
