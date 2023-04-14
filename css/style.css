@@ -155,7 +155,7 @@ p {
 
 .section3{
   background-color: #1d1d1d;
-  height: 1000px;
+  height: 1500px;
   width: 98%;
  background-position: center center;
 
@@ -168,6 +168,7 @@ p {
   font-family: sans-serif;
   text-align: center;
   bottom: 90px;
+  font-family: "Abril Fatface", cursive;
 }
 
 .card{
@@ -179,6 +180,7 @@ p {
   text-align: center;
   margin-top: 40px;
   font-size: 25px;
+  font-family: "Abril Fatface", cursive;
   
 
 }
@@ -204,26 +206,74 @@ p {
   color: #fff;
   background-color: rgb(61, 57, 57);
   width: 600px;
- height: 250px;
+ height: 300px;
   margin-left: 100px;
   margin-top: 30px;
   border-radius: 30px;
+  padding-top: 40px;
+  display: grid;
+  
+}
+
+/* .card-text-a{
+  color: #fff;
+  background-color: rgb(61, 57, 57);
+  width: 600px;
+ height: 300px;
+  margin-left: 100px;
+  margin-top: 30px;
+  border-radius: 30px;
+  padding-top: 40px;
 
 }
 
+.card-text-b{
+  color: #fff;
+  background-color: rgb(61, 57, 57);
+  width: 600px;
+ height: 300px;
+  margin-left: 100px;
+  margin-top: 30px;
+  border-radius: 30px;
+  padding-top: 40px;
+
+
+} */
+
+
 .card-text1{
-  position: absolute;
-  bottom: -20px;
-  left: 160px;
-  
+  font-size: 25px;
+  text-align: center;
 }
 
 .card-text2{
-  position: absolute;
-  left: 160px;
+  margin-left: 80px;
   bottom: -150px;
-  font-size: 20px;
-  
+  font-size: 15px;
+}
+
+.card-text1a{
+  font-size: 25px;
+  text-align: center;
+}
+
+.card-text2a{
+  margin-left: 80px;
+  bottom: -150px;
+  font-size: 15px;
+
+}
+
+.card-text1b{
+  font-size: 25px;
+  text-align: center;
+
+}
+
+.card-text2b{
+  margin-left: 80px;
+  bottom: -150px;
+  font-size: 15px;
 
 }
 
