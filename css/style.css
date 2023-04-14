@@ -217,3 +217,41 @@ footer {
 .footer-post ul li {
     display: inline-block;
     margin: 0 20px
+}
+
+.btn1.btn1-motive:hover {
+  background-color: #21D1B2;
+}
+
+.btn2.btn2-motive:hover:active {
+  background-color: #21D1B2
+}
+
+.btn1.btn1-violet:hover; :active {
+  background-color: #37376b;
+}
+
+.btn2.btn2-violet:hover:active {
+  background-color: #2f2f5b
+}
+
+ct-section_header--type2 small {
+  font-family: 'coquette', fantasy;
+  font-size: 58px;
+  line-height: .7;
+  display: block;
+  font-weight: 700;
+  position: relative;
+  left: -12px
+
+.ct-section_header--type2 img {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 15px;
+  padding-right: 3px
+}
+
+.ct-section_header--type3 {
+  text-align: center;
+}
