@@ -149,6 +149,80 @@ p {
 
 /* VICTOR EBEGBUNA STYLES */
 
+.section3{
+  background-color: #1d1d1d;
+  height: 1000px;
+  width: 98%;
+ background-position: center center;
+
+}
+
+.cards{
+  padding-top: 100px;
+  color: white;
+  font-size: 80px;
+  font-family: sans-serif;
+  text-align: center;
+  bottom: 90px;
+}
+
+.card{
+  color: #6672c7;
+}
+
+.text1{
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 25px;
+  
+
+}
+
+.button{
+   background-color: #fff;
+  width: 250px;
+  height: 90px;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-left: 600px;
+  
+}
+
+.get{
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.card-text{
+  color: #fff;
+  background-color: rgb(61, 57, 57);
+  width: 600px;
+ height: 250px;
+  margin-left: 100px;
+  margin-top: 30px;
+  border-radius: 30px;
+
+}
+
+.card-text1{
+  position: absolute;
+  bottom: -20px;
+  left: 160px;
+  
+}
+
+.card-text2{
+  position: absolute;
+  left: 160px;
+  bottom: -150px;
+  font-size: 20px;
+  
+
+}
+
 /* SMATT STYLES */
 #sectionFour .sectionOne {
   background-color: #f8fafd;
