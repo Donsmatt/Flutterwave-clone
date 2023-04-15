@@ -62,97 +62,6 @@ nav .navLogo {
   width: 200px;
 }
 
-/* DEBEST STYLES */
-/* div {
-  display: block;
-}
-.SectionOne {
-  padding: 9rem 2rem;
-  display: block;
-}
-.main {
-  flex: 0 1 auto;
-  padding: 2rem 2rem;
-  display: block;
-}
-.hero_headinig {
-  font-size: 5rem !important;
-  line-height: 5.2rem !important;
-}
-.hero_heading {
-  font-family: "Millik", sans-serif;
-  font-size: 10rem;
-  font-weight: 500;
-  line-height: 7.8rem;
-  margin-bottom: 3rem;
-}
-.c-or {
-  color: #fb9129;
-}
-h4 {
-  display: block;
-  margin-block-start: 1.33em;
-  margin-block-end: 1.33em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-}
-
-.hero_sub-heading {
-  font-size: 2.2rem;
-  font-weight: 300;
-  line-height: 3.2rem;
-  margin-bottom: 4rem;
-  max-width: 61rem;
-}
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-.btn__label {
-  background-color: #0a0e27;
-  box-sizing: 10px;
-  font-size: 1.5rem;
-  color: white;
-  line-height: normal;
-  margin: 0;
-  padding: 1.5rem 1.9rem;
-  display: inline-flex;
-}
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-.column {
-  width: 50%;
-  display: block;
-}
-.container1 {
-  padding: 0 16px;
-}
-.container::after,
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.sponsor::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.ads {
-  float: left;
-  width: 16.6%;
-  padding: 0;
-} */
-
 /* SMATT ADJUSTMENTS */
 /* DEBEST SECTION */
 
@@ -343,70 +252,118 @@ p {
 
 /* VICTOR EBEGBUNA STYLES */
 
-.section3 {
+#sectionThree {
   background-color: #1d1d1d;
-  height: 1000px;
-  width: 98%;
-  background-position: center center;
+  color: #fff;
 }
 
-.cards {
-  padding-top: 100px;
-  color: white;
-  font-size: 80px;
-  font-family: sans-serif;
+#sectionThree .container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+#sectionThree .sectionOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+#sectionThree .sectionOne p {
   text-align: center;
-  bottom: 90px;
 }
 
-.card {
+#sectionThree h2 {
+  font-size: 4rem;
+  font-family: "Abril Fatface", cursive;
+  line-height: 1.2;
+  word-spacing: 0.15rem;
+  max-width: 50rem;
+  text-align: center;
+}
+
+#sectionThree .sectionOne p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  max-width: 35rem;
+}
+
+#sectionThree button {
+  padding: 1rem 1.5rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #0a0e27;
+  border: none;
+  border-radius: 10px;
+}
+
+#sectionThree .purple {
   color: #6672c7;
 }
 
-.text1 {
-  color: white;
-  text-align: center;
-  margin-top: 40px;
-  font-size: 25px;
-}
-
-.button {
-  background-color: #fff;
-  width: 250px;
-  height: 90px;
-  border-radius: 15px;
-  margin-top: 40px;
-  margin-left: 600px;
-}
-
-.get {
-  font-size: 18px;
-  font-weight: lighter;
-  text-align: center;
-  padding-top: 30px;
-}
-
-.card-text {
-  color: #fff;
-  background-color: rgb(61, 57, 57);
-  width: 600px;
+#sectionThree .sectionTwo .card {
+  background-color: #333;
   height: 250px;
-  margin-left: 100px;
-  margin-top: 30px;
-  border-radius: 30px;
+  width: 400px;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
 }
 
-.card-text1 {
-  position: absolute;
-  bottom: -20px;
-  left: 160px;
+#sectionThree .sectionTwo .top {
+  text-align: end;
+}
+#sectionThree .sectionTwo .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
 
-.card-text2 {
-  position: absolute;
-  left: 160px;
-  bottom: -150px;
-  font-size: 20px;
+#sectionThree .red {
+  background-color: red;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+#sectionThree .yellow {
+  background-color: yellow;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+#sectionThree .sectionThree {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+#sectionThree .sectionThree .card {
+  max-height: 350px;
+  width: 500px;
+  background-color: #333;
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+#sectionThree .sectionThree .card h3 {
+  margin-bottom: 1rem;
+}
+
+#sectionThree .sectionThree .card p {
+  line-height: 1.7;
+  font-size: 0.9rem;
 }
 
 /* SMATT STYLES */
