@@ -147,7 +147,24 @@ nav .navLogo {
 nav .navMenu {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
+}
+
+nav li {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+nav .navIcon {
+  display: none;
+}
+
+nav .navIcon span {
+  display: block;
+  height: 3px;
+  width: 30px;
+  background-color: #000;
+  margin-top: 5px;
 }
 
 /* SECTION ONE STYLES */
@@ -288,8 +305,8 @@ nav .navMenu {
 }
 
 #sectionThree .sectionThree .card {
-  height: 300px;
-  width: 450px;
+  min-height: 300px;
+  max-width: 450px;
   background-color: #333;
   padding: 2rem 1.5rem;
   border-radius: 20px;
@@ -299,6 +316,7 @@ nav .navMenu {
 }
 
 #sectionThree .sectionThree .card:hover {
+  transition: 0.3s ease-in;
   margin-right: 2rem;
   margin-left: 2rem;
 }
@@ -382,6 +400,7 @@ nav .navMenu {
   display: grid;
   place-items: center;
   margin-bottom: 100px;
+  padding: 2rem;
 }
 
 #sectionFour .sectionThree .card {
@@ -425,12 +444,14 @@ nav .navMenu {
   border-bottom: 1px solid #ccc;
 }
 
-#footer .footer-mid .content, .footer-bottom .content {
+#footer .footer-mid .content,
+.footer-bottom .content {
   display: flex;
   justify-content: space-between;
 }
 
-#footer .footer-mid .right, .footer-bottom .right {
+#footer .footer-mid .right,
+.footer-bottom .right {
   display: flex;
   gap: 2rem;
 }
@@ -440,3 +461,21 @@ nav .navMenu {
 }
 
 /* MEDIA QUERIES STYLES */
+
+@media screen and (max-width: 900px) {
+  nav .navMenu {
+    display: none;
+  }
+
+  nav .navButton {
+    display: none;
+  }
+
+  nav .navIcon {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+}
