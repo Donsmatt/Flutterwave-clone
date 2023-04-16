@@ -568,7 +568,6 @@ nav .navIcon span {
   .overlap {
     display: flex;
     height: 100vh;
-    border: 3px solid black;
   }
   .right .image figure img {
     height: 100%;
@@ -626,7 +625,6 @@ nav .navIcon span {
     position: relative;
   }
   .grid-item-2 {
-    border: 2px solid black;
   }
   .wrapper .left,
   .wrapper .right {
