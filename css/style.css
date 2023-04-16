@@ -645,12 +645,6 @@ nav .navIcon span {
   #sectionThree .sectionThree .card {
     min-height: 300px;
     max-width: 330px;
-    background-color: #333;
-    padding: 2rem 1.5rem;
-    border-radius: 20px;
-    margin-right: -3rem;
-    margin-left: -3rem;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.7);
   }
 }
 
@@ -666,7 +660,11 @@ nav .navIcon span {
     letter-spacing: 2px;
   }
   .container {
-    width: 93vw;
+    width: 99vw;
+    oveflow: hidden;
+  }
+  #sectionFour .sectionTwo .grid {
+    overflow: hidden;
   }
   button {
     padding: 0.5rem 1rem;
@@ -683,23 +681,27 @@ nav .navIcon span {
   .overlap .right {
     width: 100%;
   }
-  .left img {
+  .overlap .left img {
     height: 100%;
     height: 100%;
     object-fit: cover;
     object-position: 100% 100%;
   }
-  .right .image figure img {
+  .overlap .right .image figure img {
     height: 100%;
-    height: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: 50% 50%;
   }
-  .right .image figure {
+  .overlap .right .image figure {
     width: 100%;
     height: 100%;
-    margin-left: auto;
-    position: relative;
+    margin-top: 0%;
+    margin-bottom: 50px;
+  }
+  .overlap .right .image {
+    display: flex;
+    flex-direction: column-reverse;
   }
   .overlap .left p,
   .overlap .right .image figure p {
@@ -711,7 +713,119 @@ nav .navIcon span {
     margin-top: 0%;
     margin-bottom: 50px;
   }
-  .overlap .right {
-    border: 3px solid yellow;
+  .right-desc {
+    margin: 50px 0;
+  }
+  .wrapper .left,
+  .wrapper .right {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+  }
+  .wrapper .right .image {
+    margin-top: 5%;
+    margin-left: 0%;
+  }
+  .wrapper .right {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .wrapper .left .image img {
+    margin: 50px 0;
+  }
+  #sectionTwo .sectionTwo h3 {
+    font-size: 2rem;
+  }
+  #sectionThree .sectionTwo .card {
+    max-width: 90vw;
+  }
+  #sectionThree .sectionThree .cardContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #sectionThree .sectionThree .card:hover {
+    transition: none;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #sectionFour .sectionThree {
+    padding: 0.5rem;
+  }
+
+  #sectionFour .sectionThree .card {
+    padding: 2.5rem 4rem;
+  }
+  #footer .footer-top,
+  .footer-mid,
+  .footer-bottom {
+    display: none;
+  }
+
+  /* All the CSS needed to make disclosures work */
+  .dropdown {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin-top: 1px;
+    /* margin-bottom: 20px; */
+  }
+
+  .dropdown-content {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+  .dropdown button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 100%;
+    height: 50px;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 0;
+  }
+
+  .dropdown button[aria-expanded='false'] + div {
+    display: none;
+  }
+
+  .dropdown button[aria-expanded] {
+    border: 0.1em solid #ccc;
+    padding: 0.5em 1em 0.5em 0.5em;
+    font: inherit;
+    background-color: #eee;
+    border-radius: 0.2em;
+  }
+
+  .drop-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+  }
+
+  .dropdown button[aria-expanded]:hover span,
+  .dropdown button[aria-expanded]:focus span {
+    background-color: #fff;
+    outline: none;
+  }
+
+  .dropdown button[aria-expanded]:hover svg,
+  .dropdown button[aria-expanded]:focus svg {
+    fill: #00f;
+  }
+
+  /* Lean on programmatic state for styling */
+  .dropdown button[aria-expanded='true'] svg {
+    transform: rotate(90deg);
+  }
+  .disclosee {
+    padding: 0.25em 0.75em;
+    border: 0.1em solid #ddd;
+    background-color: #fff;
+    margin-top: -0.1em;
   }
 }
