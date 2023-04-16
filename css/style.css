@@ -209,7 +209,7 @@ nav .navIcon span {
 }
 .overlap {
   display: flex;
-  height: 100vh;
+  height: 90vh;
 }
 .overlap .left {
   width: 60%;
@@ -405,7 +405,7 @@ nav .navIcon span {
 
 #sectionThree .sectionThree .card {
   min-height: 300px;
-  max-width: 450px;
+  max-width: 400px;
   background-color: #333;
   padding: 2rem 1.5rem;
   border-radius: 20px;
@@ -560,8 +560,30 @@ nav .navIcon span {
 }
 
 /* MEDIA QUERIES STYLES */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 98vw;
+  }
 
-@media screen and (max-width: 900px) {
+  .overlap {
+    display: flex;
+    height: 100vh;
+    border: 3px solid black;
+  }
+  .right .image figure img {
+    height: 100%;
+    height: 520px;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+  .right .image figure {
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    position: relative;
+  }
+}
+@media screen and (max-width: 950px) {
   nav .navMenu {
     display: none;
   }
@@ -573,7 +595,123 @@ nav .navIcon span {
   nav .navIcon {
     display: block;
   }
+
+  .overlap {
+    display: flex;
+    height: 60vh;
+  }
+  .right .image figure img {
+    height: 620px;
+  }
+  .text {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    position: relative;
+  }
+  .right .text {
+    width: 90%;
+  }
+  #sectionOne .sectionTwo .businesses {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  #sectionOne .sectionThree .grid-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .grid-image {
+    height: 600px;
+    position: relative;
+  }
+  .grid-item-2 {
+    border: 2px solid black;
+  }
+  .wrapper .left,
+  .wrapper .right {
+    display: flex;
+    height: 50vh;
+  }
+
+  .wrapper .left .image img {
+    height: 100%;
+    width: 100%;
+  }
+  .wrapper .right .image img {
+    height: 90%;
+    width: 100%;
+  }
+  #sectionThree .sectionThree .card {
+    min-height: 300px;
+    max-width: 330px;
+    background-color: #333;
+    padding: 2rem 1.5rem;
+    border-radius: 20px;
+    margin-right: -3rem;
+    margin-left: -3rem;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.7);
+  }
 }
 
 @media screen and (max-width: 750px) {
+  .overlap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+  }
+  .container {
+    width: 93vw;
+  }
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+  .overlap {
+    display: flex;
+    height: 90vh;
+  }
+  .overlap .left {
+    width: 100%;
+  }
+
+  .overlap .right {
+    width: 100%;
+  }
+  .left img {
+    height: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 100%;
+  }
+  .right .image figure img {
+    height: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+  .right .image figure {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    position: relative;
+  }
+  .overlap .left p,
+  .overlap .right .image figure p {
+    top: 85%;
+    letter-spacing: 2px;
+    font-size: 1rem;
+  }
+  .overlap .right .image figure {
+    margin-top: 0%;
+    margin-bottom: 50px;
+  }
+  .overlap .right {
+    border: 3px solid yellow;
+  }
 }
