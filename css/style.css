@@ -1,6 +1,6 @@
 /* UNIVERSAL STYLES */
 
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@100;200;300;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@100;200;300;500;700&display=swap');
 
 * {
   margin: 0%;
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 ul {
@@ -28,12 +28,13 @@ img {
 /* UNIQUE STYLES */
 
 h1 {
-  font-size: 5rem;
-  font-family: "Abril Fatface", cursive;
+  font-size: 5.2rem;
+  font-family: 'Abril Fatface', cursive;
   line-height: 1.2;
-  word-spacing: 0.15rem;
+  word-spacing: 1rem;
   margin-bottom: 3rem;
   max-width: 50rem;
+  letter-spacing: 4px;
 }
 
 h2 {
@@ -51,7 +52,7 @@ li {
 
 button {
   padding: 1rem 1.5rem;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #0a0e27;
   color: #fff;
   border: none;
@@ -94,7 +95,7 @@ button {
 
 .container {
   max-width: 1200px;
-  width: 80%;
+  width: 72vw;
   margin: 0 auto;
   padding: 5rem 0;
 }
@@ -190,6 +191,9 @@ nav .navIcon span {
   width: 100%;
   justify-content: space-between;
 }
+#sectionOne .sectionTwo h2 {
+  line-height: 1;
+}
 
 #sectionOne .sectionThree .grid-2 {
   display: grid;
@@ -203,7 +207,61 @@ nav .navIcon span {
   border: 0;
   border-radius: 20px;
 }
+.overlap {
+  display: flex;
+  height: 100vh;
+}
+.overlap .left {
+  width: 60%;
+  position: relative;
+}
+.overlap .left p,
+.right .image figure p {
+  position: absolute;
+  right: 3%;
+  top: 92%;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
 
+.right .image figure p {
+  left: 3%;
+}
+.overlap .right {
+  width: 45%;
+}
+.left img {
+  height: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.right .image figure img {
+  height: 100%;
+  height: 700px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.right .image figure {
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+  position: relative;
+}
+.text {
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+  position: relative;
+}
+.right .image figure {
+  margin-top: -25%;
+  margin-bottom: 50px;
+}
 /* SECTION TWO STYLES */
 
 #sectionTwo {
@@ -217,7 +275,9 @@ nav .navIcon span {
   gap: 4rem;
   align-items: center;
 }
-
+#sectionTwo .sectionOne h1 {
+  line-height: 1;
+}
 #sectionTwo .sectionOne .textContainer {
   display: grid;
   gap: 3rem;
@@ -227,6 +287,45 @@ nav .navIcon span {
   font-size: 4rem;
   font-weight: 300;
   margin-bottom: 3rem;
+}
+.wrapper {
+}
+.wrapper .left,
+.wrapper .right {
+  display: flex;
+  height: 93vh;
+}
+.wrapper .left .text,
+.wrapper .right .textContainer {
+  display: flex;
+  flex: 1;
+}
+.wrapper .right .textContainer {
+  height: 500px;
+}
+.wrapper .left .text .desc {
+  width: 70%;
+  margin: auto;
+}
+.wrapper .left .image,
+.wrapper .right .image {
+  flex: 1;
+}
+.wrapper .right .image {
+  margin-top: -5%;
+  margin-left: 0%;
+}
+.wrapper .left .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.wrapper .right .image img {
+  height: 90%;
+  width: 600px;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 /* SECTION THREE STYLES */
@@ -345,7 +444,7 @@ nav .navIcon span {
 }
 
 #sectionFour .sectionOne li::before {
-  content: "";
+  content: '';
   background-color: #262c55;
   border-radius: 100%;
   height: 1.1rem;
@@ -367,7 +466,7 @@ nav .navIcon span {
 }
 
 #sectionFour .sectionTwo .info::after {
-  content: "";
+  content: '';
   border: 1px solid #262c55;
   left: 0;
   position: absolute;
@@ -376,7 +475,7 @@ nav .navIcon span {
 }
 
 #sectionFour .sectionTwo .info::before {
-  content: "";
+  content: '';
   border: 1px dashed #262c55;
   left: 0;
   position: absolute;
@@ -477,5 +576,4 @@ nav .navIcon span {
 }
 
 @media screen and (max-width: 750px) {
-
 }
